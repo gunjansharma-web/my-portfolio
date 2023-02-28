@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/1d61d82c0a.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+	<script src="../js/script.js"></script>
+	<title>Gunjan portfolio</title>
+	<link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+	<div class="heroSection">
+		<div class="leftSide">
+			<div class="nameInSide">
+				<i class="bi bi-bookmark-fill"></i>
+			</div>
+			<div class="nameInSideName">
+				Gs
+			</div>
+			<img class="myImg" alt="myImg" src="../images/LinkedIn pic Gunjan2.jpg">
+		</div>
+		<section class="rightSide">
+
+			<div class="navBar">
+
+				<nav  id="hide">
+					<ul>
+						<li><a href="#home"> HOME</a></li>
+						<li><a href="#aboutMe"> ABOUT ME</a></li>
+						<li><a href="#skills"> SKILLS</a></li>
+						<div class="dropdown">
+						<li><a href="#pages"> PAGES</a></li>
+						<div class="dropdown-content">
+							<a href="#Projects">Projects</a>
+							<a href="#Interest">Interest</a>
+							<a href="#Tools & IDE">Tools & IDE</a>
+						  </div>
+						</div>
+						<li><a href="#contactMe"> CONTACT ME</a></li>
+					</ul>
+				</nav>
+
+				<i id="list" onclick="myFunction()" class="bi bi-list"></i>
+
+			</div>
+			<div class="heroText">
+				<h5>I'm</h5>
+				<h1>Gunjan Sharma</h1>
+
+				<h5>UX & UI designer,</h5>
+				<h5>WEB designer and DEVELOPER</h5>
+				<div class="HeroIcons">
+					<a href="https://github.com/gunjansharma-web"><i class="bi bi-github"></i></a>
+					<a href="https://www.linkedin.com/in/gunjansharma-web/"><i class="bi bi-linkedin"></i></a>
+
+				</div>
+				<img class="myImgsmall" alt="myImg" src="../images/LinkedIn pic Gunjan2.jpg">
+			</div>
+		</section>
+
+	</div>
+	<div id="aboutMe" class="aboutSection">
+		<div class="flag">
+			<div></div>
+			<div>
+				<i class="bi bi-bookmark-fill"></i>
+			</div>
+		</div>
+		<div class="aboutData">
+			<div>
+			<h1 class="heading">About me</h1>
+			<p>I am interested in web development,<br>
+				love to design websites,<br>
+				Learning continuously &<br>
+				Looking for web designer/developer internship opportunity.</p>
+			</div>
+		<div>
+			<div class="backCircle animation"></div>
+			<img src="../images/womenImg.jpg" class="womenImg animation">
+		</div>
+		</div>
+	</div>
+
+	<section id="skills">
+
+		<div class="headingSkills">
+			<h1>Skills</h1>
+
+		</div>
+		<div class="skills">
+			<div>
+				<i class="fa-brands fa-html5"></i>
+				<h1>HTML</h1>
+			</div>
+			<div>
+				<i class="fa-brands fa-css3-alt"></i>
+				<h1>CSS</h1>
+			</div>
+			<div class="js">
+				<i class="fa-brands fa-square-js"></i>
+
+				<h1>Javascript</h1>
+			</div>
+			<div>
+				<h2 class="ps">Ps</h2>
+				<h1 class="adobePhotoshop">Adobe Photoshop</h1>
+			</div>
+		</div>
+		<div class="skills">
+			<div>
+				<i class="fa-brands fa-figma"></i>
+				<h1>Figma</h1>
+			</div>
+			<div>
+				<i class="bi bi-bootstrap-fill"></i>
+				<h1>Bootstrap</h1>
+			</div>
+
+		</div>
+
+	</section>
+	<section id="pages">
+		<div  id="Projects" class="projects">
+	<div>
+		<div class="backCircle"></div>
+		<img src="../images/Screenshot 2023-02-20 171210.jpg">
+	</div>
+	<div class="projectData">
+		<h1>Projects</h1>
+
+		<div  class="projectName">
+			<h2>Basic Calculator</h2>
+			<p>Developed a basic mathematical calculator using HTML, CSS, JavaScript for learning purpose.</p>
+			<div>
+			<h3>Live link ~</h3>
+			<i class="bi bi-calculator-fill"></i>
+			</div>
+		</div>
+		<div class="projectName">
+			<h2>  Music player </h2>
+			<p>Developed a Music player using HTML, CSS, JavaScript for learning purpose.</p>
+			<div>
+			<h3>Live link ~</h3>
+			<i class="bi bi-file-music-fill"></i>
+			</div>
+		</div>
+		<div class="projectName">
+			<h2>Insurance Company Portal</h2>
+			<p>Designed a Insurance Company Website using Figma for learning purpose.</p>
+			<div>
+			<h3>Live link ~</h3>
+			<i class="bi bi-file-richtext-fill"></i>
+			</div>
+		</div>
+	</div>
+</div>
+<div  id="Interest" class="intrest">
+	<div class="tri">Intrest</div>
+	<div class="intrestData"><h1>Frontend Designing : </h1><p> Learning & loving designing frontends using Figma, HTML, CSS, JS.</p><br>
+		<h1>Dance & Music : </h1><p>Dance & Music keeps me refreshing.</p></div>
+		<div><img  class="animation"src="../images/find.jpg"></div>
+</div>
+</section>
+<section id="Tools & IDE" class="footer">
+
+ <div>
+	<h1>Tools & IDE <i class="bi bi-pencil-square"></i></h1>
+	<p>i have command in
+		<b>Visual Studio, Figma,
+		Adobe Photoshop, Microsoft Office,
+		Git</b></p>
+ </div>
+ <div>
+	<h1 id="contactMe">Contact Me <i class="bi bi-person-bounding-box"></i></h1>
+	<p><b>+91 - 6377177922</b>
+		gunjansharma.13dec@gmail.com</p>
+ </div>
+ <div>
+	<h1>My Resume <i class="bi bi-file-pdf"></i></h1>
+	<p><a href="../docs/Gunjan Sharma.pdf"  target="_blank" >Resume</a></p>
+ </div>
+</section>
+</body>
+
+</html>
